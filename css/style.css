@@ -1,0 +1,182 @@
+@font-face {
+  font-family: Avenir-light;
+  src: url(Avenir-Light.ttf);
+  font-family: Cinzel;
+  src:url(Cinzel-Regular.otf);
+}
+
+
+/*navbar custom styles*/
+.navbar-custom {
+    font-family: Avenir-Light;
+    background-color:white;
+    color:black;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:black;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: black;
+    background-color:white;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: white;
+}
+
+.navbar-custom .navbar-brand {
+    color:black;
+}
+.navbar-custom .navbar-toggle {
+    background-color:white;
+}
+.navbar-custom .icon-bar {
+    background-color:white;
+}
+
+/*end of navbar styles*/
+
+
+.carousel{
+  width:1000px;
+  display: block;
+    margin: auto;
+}
+.image{
+  width:1000px;
+  display: block;
+    margin: auto;
+    z-index: -1;
+}
+.button1{
+  position:absolute;
+  top:1120px;
+  left:650px;
+}
+.button2{
+  position:absolute;
+  top:1120px;
+  left:850px;
+}
+.button3{
+  position:absolute;
+  top:1120px;
+  left:1050px;
+}
+
+.commercial{
+text-align: center;
+z-index: -1;
+}
+
+.button4{
+
+}
+
+.button5{
+  position:absolute;
+  top:1260px;
+left:310px;
+}
+
+.button6{
+  position:absolute;
+  top:1810px;
+left:310px;
+}
+
+.map-container {
+  background-color: #F0F3F6;
+}
+
+.map-column {
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.map-column h3 {
+  font-family: Cinzel;
+  font-size: 60px;
+  text-align: left;
+  display: inline-block;
+}
+
+.map-column h2 {
+  font-family: Cinzel;
+  font-size: 40px;
+  text-align: left;
+  display: inline-block;
+}
+.map-column h1 {
+  font-family: Cinzel;
+  font-size: 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+.map-column p {
+  font-family: Avenir-light;
+  font-size: 15px;
+  }
+
+  .map-button {
+    min-width: 100px;
+    display: inline-block;
+    margin-right: 10%;
+  }
+
+  .pretty {
+    text-align: center;
+  }
+
+  .headers{
+    font-family: Avenir-light;
+    font-size:25px;
+    text-align: center;
+  }
+
+  .bigwords{
+    font-family: Avenir-light;
+    font-size:50px;
+    text-align: center;
+  }
+
+  .headings
+  {
+    font-family: Cinzel;
+    font-size:50px;
+    text-align: center;
+
+  }
+
+  .middle{
+    text-align: center;
+  }
+/*==============================IDS===========================================*/
+
+#hb, #ru, #ch {
+  margin-top: 150px;
+}
+
+
+#pretty{
+  width:1000px;
+float: center;
+}
+
+#container{
+  text-align: center;
+}
+
+#sticky-wrapper{
+  background-color: white;
+}

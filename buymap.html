@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Buy map</title>
+</head>
+
+<body>
+
+  <!-- navbar-->
+  <header class="header">
+    <div class="sticky-wrapper">
+      <div role="navigation" class="navbar-custom navbar-default">
+        <div class="container">
+          <a href="index.html" class="navbar-brand scroll-to">
+            <img src="img/logo.png" alt="">
+          </a>
+          <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-btn btn-sm navbar-toggle">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navigation" class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">About</a></li>
+              <li><a href="howitworks.html">How it works</a></li>
+              <li><a href="languagemapping.html">Language mapping</a></li>
+              <li><a href="buymap.html">Buy map</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /navbar-->
+
+<!-- /HOVEROVER1-->
+  <div class="container map-container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="col-lg-6 map-column">
+          <h3>English-Hebrew Map</h3>
+            <p>The Hebrew language map was the toughest to create. Strictly speaking, the Hebrew language
+            does not fit well on a map. Verbs are conjugated
+            according to gender, number, time, and a definite article, which makes presentation on a map all the more difficult. Consequently, we spent more time on the design of the map than the actual content. It was important that the color scheme, navigation, signs and structure are all straightforward, avoiding any mix up for users.
+            Still, using the map will get you 100% correct sentences as long as you follow the lingual pattern.
+          </p>
+          <div class="col-sm-12">
+          <a href="language mapping" class="btn btn-default map-button" role="button">buy map</a>
+          <h3>$10</h3>
+          </div>
+        </div>
+        <div class="col-lg-6 map-column">
+          <div id=hb>
+            <img id="hb_otg" src="img/hb.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- /HOVEROVER1-->
+
+<br>
+
+<!-- /HOVEROVER2-->
+<div class="container map-container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="col-lg-6 map-column">
+        <h3>English-Chinese Map</h3>
+          <p>The Hebrew language map was the toughest to create. Strictly speaking, the Hebrew language
+          does not fit well on a map. Verbs are conjugated
+          according to gender, number, time, and a definite article, which makes presentation on a map all the more difficult. Consequently, we spent more time on the design of the map than the actual content. It was important that the color scheme, navigation, signs and structure are all straightforward, avoiding any mix up for users.
+          Still, using the map will get you 100% correct sentences as long as you follow the lingual pattern.
+        </p>
+        <div class="col-sm-12">
+        <a href="language mapping" class="btn btn-default map-button" role="button">buy map</a>
+        <h3>$10</h3>
+        </div>
+      </div>
+      <div class="col-lg-6 map-column">
+        <div id=ch>
+          <img id="ch_otg" src="img/ch.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /HOVEROVER2-->
+<br>
+
+<!-- /HOVEROVER3-->
+<div class="container map-container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="col-lg-6 map-column">
+        <h3>English-Russian Map</h3>
+          <p>The Hebrew language map was the toughest to create. Strictly speaking, the Hebrew language
+          does not fit well on a map. Verbs are conjugated
+          according to gender, number, time, and a definite article, which makes presentation on a map all the more difficult. Consequently, we spent more time on the design of the map than the actual content. It was important that the color scheme, navigation, signs and structure are all straightforward, avoiding any mix up for users.
+          Still, using the map will get you 100% correct sentences as long as you follow the lingual pattern.
+        </p>
+        <div class="col-sm-12">
+        <a href="language mapping" class="btn btn-default map-button" role="button">buy map</a>
+        <h3>$10</h3>
+        </div>
+      </div>
+      <div class="col-lg-6 map-column">
+        <div id=ru>
+          <img id="ru_otg" src="img/ru.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /HOVEROVER3-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+
+      $('#hb_otg').mouseover(function(){
+        $(this).attr('src', 'img/hebrewfolded.jpg');
+        console.log('mouse is over!');
+      });
+
+      $('#hb_otg').mouseout(function(){
+        $(this).attr('src', 'img/hb.jpg');
+        console.log('mouse is out!');
+      });
+
+
+
+      $('#ch_otg').mouseover(function(){
+        $(this).attr('src', 'img/ch.gif');
+        console.log('mouse is over!');
+      });
+
+      $("#ch_otg").mouseout(function(){
+        $(this).attr('src', 'img/ch.png');
+        console.log('mouse is out!');
+      });
+
+      $('#ru_otg').mouseover(function(){
+        $(this).attr('src', 'img/ru.gif');
+        console.log('mouse is over!');
+      });
+
+      $("#ru_otg").mouseout(function(){
+        $(this).attr('src', 'img/ru.png');
+        console.log('mouse is out!');
+      });
+
+    </script>
+  </body>
+</html>
